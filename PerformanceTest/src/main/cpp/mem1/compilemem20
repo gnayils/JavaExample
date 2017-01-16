@@ -1,0 +1,1 @@
+g++ -g -o mem20 mem20.cpp

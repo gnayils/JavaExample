@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/example.iml" filepath="$PROJECT_DIR$/.idea/modules/example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/example_main.iml" filepath="$PROJECT_DIR$/.idea/modules/example_main.iml" group="example" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/example_test.iml" filepath="$PROJECT_DIR$/.idea/modules/example_test.iml" group="example" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jpegcompress.iml" filepath="$PROJECT_DIR$/.idea/modules/jpegcompress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jpegcompress_main.iml" filepath="$PROJECT_DIR$/.idea/modules/jpegcompress_main.iml" group="jpegcompress" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jpegcompress_test.iml" filepath="$PROJECT_DIR$/.idea/modules/jpegcompress_test.iml" group="jpegcompress" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/performancetest.iml" filepath="$PROJECT_DIR$/.idea/modules/performancetest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/performancetest_main.iml" filepath="$PROJECT_DIR$/.idea/modules/performancetest_main.iml" group="performancetest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/performancetest_test.iml" filepath="$PROJECT_DIR$/.idea/modules/performancetest_test.iml" group="performancetest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rxjava.iml" filepath="$PROJECT_DIR$/.idea/modules/rxjava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rxjava_main.iml" filepath="$PROJECT_DIR$/.idea/modules/rxjava_main.iml" group="rxjava" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rxjava_test.iml" filepath="$PROJECT_DIR$/.idea/modules/rxjava_test.iml" group="rxjava" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/socket.iml" filepath="$PROJECT_DIR$/.idea/modules/socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/socket_main.iml" filepath="$PROJECT_DIR$/.idea/modules/socket_main.iml" group="socket" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/socket_test.iml" filepath="$PROJECT_DIR$/.idea/modules/socket_test.iml" group="socket" />
+    </modules>
+  </component>
+</project>

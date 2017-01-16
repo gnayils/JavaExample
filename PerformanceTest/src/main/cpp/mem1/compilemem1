@@ -1,0 +1,1 @@
+g++ -g -o mem1 mem1.cpp

@@ -1,0 +1,1 @@
+gcc -g -o main timer.c main.c

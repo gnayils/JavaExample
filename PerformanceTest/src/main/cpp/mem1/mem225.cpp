@@ -1,0 +1,56 @@
+// Cpu.cpp : Defines the entry point for the console application.
+//
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
+#include <string.h>
+#include <math.h>
+
+#define MAX_VAL  250
+#define _GG_ (1024*1024*250)
+
+
+int val = 0;
+char *p = NULL;
+char *pg0 = NULL;
+
+int main(int argc, char* argv[])
+{
+	
+	srand((unsigned)time(NULL));
+
+	pg0 = (char*)malloc(_GG_);
+	if(!pg0)
+	{
+		printf("error pg0\n");
+		exit(0);
+	}
+
+	while(1)
+	{
+		int val_1;
+		val = rand();
+		val = (int)((float)val/(float)RAND_MAX*(float)MAX_VAL);		
+		val = MAX_VAL >= val?val:MAX_VAL;
+		
+		val_1= val*_GG_/MAX_VAL-1024*1024*50;
+		val_1=val_1<0?0:val_1;
+		memset(pg0+val_1,0,1024*1024*10);
+		
+		if(!val)
+			continue;
+		
+		p = (char*)malloc(val*1024*1024);
+		if(!p)
+		{
+		   continue;	
+		}
+		
+		for(int z=0;z<1000;z++)
+			memset(p,0,val);
+		free(p);
+	}
+	
+	return 0;
+}
